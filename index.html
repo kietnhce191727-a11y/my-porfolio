@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Cá Nhân | Trang Chủ</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome để dùng icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Thanh Điều Hướng -->
     <nav class="navbar">
         <div class="nav-container">
             <a href="index.html" class="logo">HK<span>Studio</span></a>
@@ -26,7 +24,6 @@
         </div>
     </nav>
 
-    <!-- Khu Vực Hero -->
     <header class="hero-section">
         <div class="hero-content">
             <h1>Xin chào, tôi là <span class="highlight">Hoàng Kiệt</span></h1>
@@ -39,16 +36,13 @@
         </div>
     </header>
 
-    <!-- Khu Vực Giới Thiệu (About) + BỔ SUNG KHUNG ẢNH -->
     <section id="about" class="about-section">
         <div class="container">
             <h2 class="section-title">Về Bản Thân</h2>
             <div class="about-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; align-items: center;">
                 
-                <!-- BỔ SUNG: Khối chứa ảnh chân dung của bạn -->
                 <div class="about-img-container" style="text-align: center;">
                     <div style="width: 280px; height: 280px; border-radius: 50%; border: 5px solid var(--primary-color); margin: 0 auto; overflow: hidden; background: #dfe4ea; display: flex; align-items: center; justify-content: center;">
-                        <!-- Thay link ảnh của bạn vào thuộc tính src dưới đây -->
                         <img src="IMG_9003 (3).jpg">
                     </div>
                 </div>
@@ -58,7 +52,7 @@
                     <p>Tôi là một người thiết kế luôn tìm kiếm sự cân bằng giữa tính thẩm mỹ và công năng kỹ thuật. Với tư duy thiết kế bài bản kết hợp cùng khả năng code giao diện mượt mà, tôi biến các ý tưởng sơ khai thành các sản phẩm hoàn chỉnh, có bản sắc riêng.</p>
                     
                     <div class="skills-container">
-                        <h3>Kỹ năng của tôi:</h3>
+                        <h3>Kỹ năng của tôi (Rê chuột thử xem):</h3>
                         <div class="skills-list">
                             <span class="skill-badge">UI/UX Layout</span>
                             <span class="skill-badge">Brand Identity</span>
@@ -73,47 +67,43 @@
         </div>
     </section>
 
-    <!-- BỔ SUNG: Khu vực Kinh nghiệm & Học vấn (Timeline) -->
     <section id="experience" class="experience-section" style="padding: 100px 0; background: #fff;">
         <div class="container">
             <h2 class="section-title">Kinh Nghiệm & Học Vấn</h2>
-            <div class="timeline" style="max-width: 800px; margin: 0 auto; padding: 20px 0; position: relative;">
+            <div class="timeline" style="max-width: 800px; margin: 0 auto; padding: 20px 0;">
                 
-                <!-- Thẻ mốc thời gian 1 -->
-                <div style="padding: 20px; background: var(--light-color); border-left: 4px solid var(--primary-color); margin-bottom: 20px; border-radius: 0 8px 8px 0;">
+                <div class="timeline-item">
                     <span style="font-weight: bold; color: var(--primary-color);">2024 - Hiện tại</span>
-                    <h3 style="margin: 5px 0;">UI/UX Designer & Web Developer</h3>
-                    <p style="font-style: italic; color: #747d8c;">Freelancer / Công ty Công nghệ ABC</p>
-                    <p style="margin-top: 10px; color: #57606f;">Thiết kế giao diện ứng dụng di động, trực tiếp code frontend bằng HTML/CSS/JS cho các dự án khách hàng thương mại điện tử.</p>
+                    <h3 style="margin: 5px 0;">Graphic & UI/UX Designer</h3>
+                    <p style="font-style: italic; color: #747d8c;">Freelancer / HKStudio</p>
+                    <p style="margin-top: 10px; color: #57606f;">Thiết kế hệ thống nhận diện thương hiệu độc bản, tối ưu trải nghiệm giao diện người dùng dựa trên nghiên cứu hành vi thực tế.</p>
                 </div>
 
-                <!-- Thẻ mốc thời gian 2 -->
-                <div style="padding: 20px; background: var(--light-color); border-left: 4px solid var(--secondary-color); margin-bottom: 20px; border-radius: 0 8px 8px 0;">
-                    <span style="font-weight: bold; color: var(--secondary-color);">2021 - 2024</span>
-                    <h3 style="margin: 5px 0;">Cử nhân Ngành Công nghệ thông tin</h3>
-                    <p style="font-style: italic; color: #747d8c;">Trường Đại học Kỹ thuật / Thiết kế</p>
-                    <p style="margin-top: 10px; color: #57606f;">Tốt nghiệp loại Giỏi. Tập trung nghiên cứu về phát triển ứng dụng web tương tác nâng cao và tối ưu trải nghiệm người dùng (UX).</p>
+                <div class="timeline-item">
+                    <span style="font-weight: bold; color: var(--secondary-color);">2021 - 2025</span>
+                    <h3 style="margin: 5px 0;">Sinh viên chuyên ngành Thiết kế đồ họa</h3>
+                    <p style="font-style: italic; color: #747d8c;">Đại học FPT</p>
+                    <p style="margin-top: 10px; color: #57606f;">Phát triển tư duy tạo hình, ứng dụng chất liệu văn hóa dân gian vào đồ án nghệ thuật đương đại, kết hợp lập trình Front-end cơ bản.</p>
                 </div>
 
             </div>
         </div>
     </section>
 
-    <!-- BỔ SUNG: Khu Vực Liên Hệ (Contact Form) -->
     <section id="contact" class="contact-section" style="padding: 100px 0; background-color: var(--light-color);">
         <div class="container">
             <h2 class="section-title">Kết Nối Với Tôi</h2>
             <div style="max-width: 600px; margin: 0 auto; background: #fff; padding: 40px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
                 <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 20px;">
-                    <div>
+                    <div class="form-group">
                         <label style="display:block; margin-bottom: 8px; font-weight: 600;">Họ và Tên</label>
                         <input type="text" placeholder="Nhập tên của bạn..." required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; outline: none;">
                     </div>
-                    <div>
+                    <div class="form-group">
                         <label style="display:block; margin-bottom: 8px; font-weight: 600;">Email liên hệ</label>
                         <input type="email" placeholder="name@example.com" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; outline: none;">
                     </div>
-                    <div>
+                    <div class="form-group">
                         <label style="display:block; margin-bottom: 8px; font-weight: 600;">Lời nhắn</label>
                         <textarea rows="5" placeholder="Bạn muốn hợp tác dự án gì với tôi?..." required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; outline: none; resize: vertical;"></textarea>
                     </div>
@@ -123,7 +113,6 @@
         </div>
     </section>
 
-    <!-- Chân Trang (Footer) -->
     <footer>
         <div class="footer-content">
             <p>&copy; 2026 HKStudio. All rights reserved.</p>

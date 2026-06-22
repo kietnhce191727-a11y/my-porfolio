@@ -359,3 +359,46 @@ footer {
         font-size: 18px;
     }
 }
+/* --- HIỆU ỨNG HOVER POP-UP BỔ SUNG --- */
+
+/* Hover cho các thẻ kỹ năng (Skill Badges) */
+.skill-badge {
+    transition: var(--transition);
+    cursor: default;
+    display: inline-block;
+}
+.skill-badge:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+    transform: translateY(-5px) scale(1.05); /* Pop-up lên và phóng to nhẹ */
+    box-shadow: 0 5px 15px rgba(255, 71, 87, 0.3); /* Đổ bóng phát sáng màu chủ đạo */
+}
+
+/* Hover cho các mốc thời gian (Timeline Items) */
+.timeline-item {
+    padding: 20px; 
+    background: var(--light-color); 
+    border-left: 4px solid var(--primary-color); 
+    margin-bottom: 20px; 
+    border-radius: 0 8px 8px 0;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.timeline-item:nth-child(even) {
+    border-left-color: var(--secondary-color);
+}
+.timeline-item:hover {
+    transform: translateX(10px) scale(1.01); /* Pop-out nhẹ sang phải và phóng to */
+    background: var(--white);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); /* Đổ bóng nổi hẳn lên bề mặt */
+}
+
+/* Hiệu ứng nổi bật cho khung nhập liệu (Form Inputs) khi nhấn vào */
+.form-group input, .form-group textarea {
+    transition: var(--transition);
+}
+.form-group input:focus, .form-group textarea:focus {
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 10px rgba(255, 71, 87, 0.15);
+    transform: translateY(-2px); /* Nhấc nhẹ khung nhập liệu lên khi gõ */
+}
